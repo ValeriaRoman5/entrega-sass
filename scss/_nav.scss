@@ -1,0 +1,23 @@
+@import "variables";
+
+.navbar {
+    background-color: $back;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        text-decoration: none;
+        width: 100%;
+
+        li {
+            color: white;
+            font-family: $textoS;
+            font-size: 20px;
+            width: 100%;
+        }
+    }
+}
