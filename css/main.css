@@ -23,16 +23,20 @@
   align-items: center; }
   .main-plantas .section-1 .imagenes .imagen {
     width: 330px; }
-  .main-plantas .section-1 .textos {
+  .main-plantas .section-1 .textos, .main-plantas .section-1 .textos1, .main-plantas .section-1 .textos2 {
     width: 50%; }
-    .main-plantas .section-1 .textos h2 {
+    .main-plantas .section-1 .textos h2, .main-plantas .section-1 .textos1 h2, .main-plantas .section-1 .textos2 h2 {
       color: #09889e;
       font-size: 30;
       font-family: "Montserrat", sans-serif; }
-    .main-plantas .section-1 .textos p {
+    .main-plantas .section-1 .textos p, .main-plantas .section-1 .textos1 p, .main-plantas .section-1 .textos2 p {
       color: #202324;
       font-size: 15px;
       font-family: sans-serif; }
+  .main-plantas .section-1 .textos1 p {
+    color: #f52977; }
+  .main-plantas .section-1 .textos2 h2 {
+    color: #2cca2c; }
 
 header {
   background-image: url("../public/header.jpg");

@@ -3,7 +3,6 @@
 .main-plantas{
     .section-1{
         width: 50%;
-        background-color: $backk;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -32,13 +31,23 @@
                 font-family: $textoS;
             }
         }
+    
+
 
         .textos1{
             @extend .textos;
 
             p{
-                color: $colorT ;
+                color: $colorPP;
+            }
+        } 
+
+        .textos2{
+            @extend .textos;
+
+            h2{
+                color: $colorGG;
             }
         }
-    }
+    }    
 }
